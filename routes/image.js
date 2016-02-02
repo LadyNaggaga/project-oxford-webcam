@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var Spark = require("spark");
-var oxfordEmotion = require("node-oxford-emotion")(process.env.PO_KEY);
+var oxfordEmotion = require("node-oxford-emotion")('449a677a53f84e27bd4fc1bdee385c00');
 var fs = require('fs');
 var sys = require('sys');
 
